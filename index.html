@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026新年倒计时</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="countdown-container">
+            <h1>2026 新年倒计时</h1>
+            <div class="countdown">
+                <div class="time">
+                    <span id="days">00</span>
+                    <div class="label">天</div>
+                </div>
+                <div class="time">
+                    <span id="hours">00</span>
+                    <div class="label">时</div>
+                </div>
+                <div class="time">
+                    <span id="minutes">00</span>
+                    <div class="label">分</div>
+                </div>
+                <div class="time">
+                    <span id="seconds">00</span>
+                    <div class="label">秒</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="blessing">
+            <strong>祝福语：</strong><br>
+            学业开挂不偏科，难题个个被拿捏～烦恼一键清零，快乐直接翻倍！<br>
+            游戏局局 carry 全场，好运爆棚不停歇，天天都有小惊喜砸过来！<br>
+            愿你和家人平安喜乐常相伴，万事顺意无烦恼呀！<br>
+            <span style="font-size: 0.9em; color: #666;">——904 班 余子瑞</span>
+        </div>
+        
+        <div class="music-control">
+            <button id="musicBtn" class="music-btn">
+                <span id="musicIcon">🔊</span>
+            </button>
+        </div>
+        
+        <audio id="backgroundMusic" loop>
+            <source src="神女劈观.m4a" type="audio/mp4">
+            <source src="神女劈观.m4a" type="audio/mpeg">
+        </audio>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
